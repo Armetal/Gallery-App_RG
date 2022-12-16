@@ -49,7 +49,7 @@ const Photos = () => {
     } catch (error) {
       setError(error);
     }
-  }, [sort, submited]);
+  }, [sort, submited, search]);
 
   if (error) return <h1 style={{ width: '100%', textAlign: 'center', marginTop: '20px' }}>Error!</h1>;
 
