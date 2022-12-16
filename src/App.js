@@ -11,7 +11,7 @@ const App = () => {
     <>
       <div className="navbar">
         <div className="studentInfo">
-          <h2 className="studentName">Noval Alamsyah Adiputra Santos</h2>
+          <h2 className="studentName">Noval Alamsyah Adiputra Santoso</h2>
           <p className="studentId">FE2705854</p>
         </div>
         <Link to="/">Home</Link>
